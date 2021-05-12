@@ -46,6 +46,7 @@ shift $(($#-2)) # Remove all options and leave last two params, which should be 
 # Collect args and process
 DIRECTORY=$1
 FILE_PATTERN=$2
+shift 2
 
 if [[ -z "${DIRECTORY}" ]]; then
     echo "DIRECTORY variable needs to be set! Exiting..."
