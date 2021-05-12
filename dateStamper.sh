@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#
+#  Created by Devin Cooley(devincooley.dev@gmail.com, Dcooley1350@github.com) on 5/12/2021
+#  Licensed under a Creative Commons Attribution 4.0 International License.
+#
+
 # Help text
 IFS='' read -r -d '' helptext <<"EOF"
 USAGE: dateStamper [options] DIRECTORY FILE_PATTERN
